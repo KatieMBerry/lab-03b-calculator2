@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/home.css">
+    <title>Calculator</title>
+</head>
+
+<body>
+    <header>
+        <div class="gutter-right logo">
+            <img src="assets/big-logo.png"/>
+        </div>
+    </header>
+
+    <main class="main-section">
+        <img class="main-logo" src="assets/alchemy-logo.png"/>
+            
+        <section>
+            <input id="add-input-1" type="text">
+            <span>+ ADD</span>
+            <input id="add-input-2" type="text">
+            <button id="add-button">=</button>
+            <span id="add-results"></span>       
+        </section>
+
+        <section>
+            <input id="sub-input-1" type="text">
+            <span>- SUBTRACT</span>
+            <input id="sub-input-2" type="text">
+            <button id="sub-button">=</button>
+            <span id="sub-results"></span>       
+        </section>
+
+        <section>
+            <input id="multiply-input-1" type="text">
+            <span>* MULTIPLY</span>
+            <input id="multiply-input-2" type="text">
+            <button id="multiply-button">=</button>
+            <span id="multiply-results"></span>       
+        </section>
+
+        <section>
+            <input id="divide-input-1" type="text">
+            <span>/ DIVIDE</span>
+            <input id="divide-input-2" type="text">
+            <button id="divide-button">=</button>
+            <span id="divide-results"></span>       
+        </section>
+
+    </main>
+    <script type="module" src="app.js"></script>
+</body>
+
+</html>
